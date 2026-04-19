@@ -5,17 +5,17 @@ labels: ["UC"]
 
 body:
   - type: input
-    id: feat_id
+    id: uc_id
     attributes:
-      label: ID Feat
-      placeholder: FEAT-01
+      label: ID UC
+      placeholder: UC-01
     validations:
       required: true
 
   - type: input
     id: name
     attributes:
-      label: Tên Feat
+      label: Tên UC
       placeholder: Đăng ký khóa học trực tuyến
     validations:
       required: true
@@ -24,7 +24,7 @@ body:
     id: description
     attributes:
       label: Mô tả
-      placeholder: |
+      placeholder:
         Cho phép học viên/phụ huynh đăng ký khóa học trực tuyến thông qua hệ thống.
         Bao gồm:
         - Xem danh sách và chi tiết khóa học
