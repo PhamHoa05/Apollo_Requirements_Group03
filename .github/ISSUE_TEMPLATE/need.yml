@@ -64,8 +64,6 @@ body:
       label: Mức ưu tiên
       options:
         - Cao
-        - Trung
-        - Thấp
 
   - type: dropdown
     id: technique
