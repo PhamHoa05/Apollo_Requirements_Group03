@@ -1,0 +1,8 @@
+needs:
+  - id: N-01
+    name: Quản lý đào tạo tập trung toàn bộ trung tâm
+    description: Quản lý toàn bộ hoạt động đào tạo trên hệ thống thống nhất
+    stakeholder: Ban giám đốc
+    source: SR-01
+    proposed_by: Phạm Minh Hòa
+    priority: high
