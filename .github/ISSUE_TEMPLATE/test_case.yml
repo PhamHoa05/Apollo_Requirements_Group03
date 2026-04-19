@@ -1,0 +1,57 @@
+name: Create Test Case
+description: Tạo Test case
+title: "Quản lý đào tạo tập trung toàn bộ trung tâm"
+labels: ["TC"]
+
+body:
+  - type: input
+    id: tc_id
+    attributes:
+      label: ID TC
+      placeholder: TC-01-01
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Mô tả test case
+      placeholder: Đăng ký thành công
+    validations:
+      required: true
+
+  - type: input
+    id: Pre-Condition
+    attributes:
+      label: Pre-Condition
+      placeholder: Đăng nhập, khóa có chỗ
+
+  - type: input
+    id: Input
+    attributes:
+      label: Input
+      placeholder: Tuổi 10, khóa "Thiếu nhi"
+
+  - type: input
+    id: Expected_Output
+    attributes:
+      label: Expected_Output
+      placeholder: Xác nhận, email gửi
+
+  - type: input
+    id: Post-Condition
+    attributes:
+      label: Post-Condition
+      placeholder: Đăng ký lưu
+
+  - type: input
+    id: Linked_Scenario/UC/FEAT/Need
+    attributes:
+      label: Linked_Scenario/UC/FEAT/Need
+      placeholder: SC-01-01 / UC-01 / FEAT-01 / N-01
+
+  - type: input
+    id: Test_Type
+    attributes:
+      label: Test Type
+      placeholder: Positive
