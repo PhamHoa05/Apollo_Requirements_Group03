@@ -19,3 +19,43 @@ body:
       placeholder: SC-01-01
     validations:
       required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Tên Scenario
+      placeholder: Đăng ký thành công (Basic Flow)
+    validations:
+      required: true
+
+  - type: textera
+    id: mota
+    attributes:
+      label: Mô tả
+      placeholder: Học viên 10 tuổi đăng ký khóa "Tiếng Anh Thiếu nhi" tại cơ sở Hà Nội, hệ thống kiểm tra điều kiện và ghi nhận.
+    validations:
+      required: true
+
+  - type: input
+    id: Inputmẫu
+    attributes:
+      label: Input mẫu
+      placeholder: Tuổi 10, trình độ A1, cơ sở Hà Nội (còn 5 chỗ)
+    validations:
+      required: true
+
+  - type: input
+    id: ExpectedOutput
+    attributes:
+      label: Expected Output
+      placeholder: Xác nhận đăng ký, gửi email thông báo, cập nhật danh sách lớp
+    validations:
+      required: true
+
+  - type: input
+    id: Linked
+    attributes:
+      label: Linked (Use Case / Feature / Need)
+      placeholder: UC-01 / FEAT-01 / N-01
+    validations:
+      required: true
