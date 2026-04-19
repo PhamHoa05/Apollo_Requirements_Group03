@@ -21,37 +21,37 @@ body:
       required: true
 
   - type: input
-    id: Pre-Condition
+    id: pre_condition
     attributes:
       label: Pre-Condition
       placeholder: Đăng nhập, khóa có chỗ
 
   - type: input
-    id: Input
+    id: input_data
     attributes:
       label: Input
       placeholder: Tuổi 10, khóa "Thiếu nhi"
 
   - type: input
-    id: Expected_Output
+    id: expected_output
     attributes:
-      label: Expected_Output
+      label: Expected Output
       placeholder: Xác nhận, email gửi
 
   - type: input
-    id: Post-Condition
+    id: post_condition
     attributes:
       label: Post-Condition
       placeholder: Đăng ký lưu
 
   - type: input
-    id: Linked_Scenario/UC/FEAT/Need
+    id: linked_item
     attributes:
-      label: Linked_Scenario/UC/FEAT/Need
+      label: Linked Scenario/UC/FEAT/Need
       placeholder: SC-01-01 / UC-01 / FEAT-01 / N-01
 
   - type: input
-    id: Test_Type
+    id: test_type
     attributes:
       label: Test Type
       placeholder: Positive
